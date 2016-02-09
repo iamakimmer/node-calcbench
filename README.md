@@ -19,8 +19,10 @@ $ npm install --save node-genius
 var CalcBench = require('../lib/index');
 var calcBenchClient = new CalcBench('email', 'password');
 calcBenchClient.login({email: 'email', password: 'password'}); //TODO push this up
+```
 
 ##Examples
+
 ```JavaScript
 
 // Normalized metrics for comparisons between companies, the data behind the benchmarking page. 
