@@ -22,5 +22,12 @@
   },
   "dependencies": {
     "request": "2.69.x"
+  },
+  "homepage": "https://github.com/iamakimmer/node-calcbench",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
