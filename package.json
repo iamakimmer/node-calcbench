@@ -1,0 +1,26 @@
+{
+  "name": "node-calcbench",
+  "version": "0.1.0",
+  "description": "calcbench api client in node",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamakimmer/node-calcbench"
+  },
+  "bugs": {
+    "url": "https://github.com/iamakimmer/node-calcbench/issues"
+  },
+  "keywords": [
+    "calcbench"
+  ],
+  "author": "Matt Kim <matthewjkim@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-jshint": "0.12.0",
+    "grunt-contrib-watch": "0.6.1"
+  },
+  "dependencies": {
+    "request": "2.69.x"
+  }
+}
