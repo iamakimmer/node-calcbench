@@ -9,13 +9,13 @@ TODO: write tests
 ##Installation
 
 ```
-$ npm install --save node-genius
+$ npm install --save node-calcbench
 ```
 
 ##Usage
 
 ```JavaScript
-// Instantiate a Genius instance:
+// Instantiate a CalcBench instance:
 var CalcBench = require('../lib/index');
 var calcBenchClient = new CalcBench('email', 'password');
 calcBenchClient.login({email: 'email', password: 'password'}); //TODO push this up
