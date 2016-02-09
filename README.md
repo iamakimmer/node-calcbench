@@ -24,6 +24,7 @@ calcBenchClient.login({email: 'email', password: 'password'}); //TODO push this 
 ```JavaScript
 
 // Normalized metrics for comparisons between companies, the data behind the benchmarking page. 
+
 calcBenchClient.normalizedValues({
   	company_identifiers: ['msft'],
   	metrics: ['revenue'],
@@ -37,6 +38,7 @@ calcBenchClient.normalizedValues({
 
 
 // Download statements as they are reported by companies in their filings. Calcbench "folds" the statements so you can get all reported // history with one function call. This is the data behind the Company in Detail page. 
+
 calcBenchClient.asReported({
 	companyIdentifier: 'msft',
 	statementType: 'income',
@@ -48,6 +50,7 @@ calcBenchClient.asReported({
 });	
 
 // Update an annotation.
+
 calcBenchClient.breakouts({
 	'pageParameters': {'metrics': ['operatingSegmentRevenue']},  
 	'periodParameters': {year: 2013, period: 0, end_year: 2014, end_period: 0},  
@@ -57,6 +60,7 @@ calcBenchClient.breakouts({
 });
 
 // Get breakouts/segments, this is the data behind the breakout page. 
+
 calcBenchClient.companyFootnotes({
 	companyIdentifier: 'msft',
 	period: 0,
@@ -66,6 +70,7 @@ calcBenchClient.companyFootnotes({
 });
 
 // Search for and download footnotes.
+
 calcBenchClient.footnote({
 	network_id: 25975227
 }, function(err, body) {
@@ -73,6 +78,7 @@ calcBenchClient.footnote({
 });
 
 // Get analytics computed from Calcbench data. This is the data behind the analytics page. 
+
 calcBenchClient.analytics({
 	ticker: 'msft',
 	calendaryear: 2014,
